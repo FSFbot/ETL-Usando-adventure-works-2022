@@ -1,0 +1,1 @@
+num = int(input("Insira aqui uma informação para auxiliar"))

@@ -1,0 +1,58 @@
+# Ambientes virtuais
+venv/
+.venv/
+env/
+ENV/
+
+# Credenciais e configurações sensíveis
+config/db_config.py
+.env
+*.env
+
+# Cache Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Logs
+logs/
+*.log
+
+# Dados temporários
+temp/
+tmp/
+*.tmp
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Sistema operacional
+.DS_Store
+Thumbs.db
+
+# Jupyter Notebooks
+.ipynb_checkpoints
+
+# Testes
+.pytest_cache/
+.coverage
+htmlcov/
+
+# Outputs temporários
+outputs/
+*.csv
+*.xlsx
+*.parquet
+# Credenciais
+.env
+config/db_config.py
+
+# Credenciais sensíveis
+.env
+config/db_config.py
+*.env
